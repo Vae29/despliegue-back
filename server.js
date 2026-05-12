@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://silly-arithmetic-8ccdb6.netlify.app/']
+  origin: ['http://localhost:5173', 'https://silly-arithmetic-8ccdb6.netlify.app']
 }));
 
 app.use(express.json());
